@@ -1,0 +1,92 @@
+{
+  "itemId" : "_t4YUAGZIEe6FrpLJ8dCutA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_MW-HwGYlEe6FrpLJ8dCutA",
+    "parameterList" : [ {
+      "id" : "_MXOmcGYlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Port"
+    }, {
+      "id" : "_MXOmcWYlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Server"
+    }, {
+      "id" : "_MXOmcmYlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Login"
+    }, {
+      "id" : "_MXOmc2YlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Database"
+    }, {
+      "id" : "_MXOmdGYlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_AdditionalParams"
+    }, {
+      "id" : "_MXOmdWYlEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Password"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_MW-HwGYlEe6FrpLJ8dCutA",
+    "parameterList" : [ {
+      "id" : "_nlJ672YmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Port"
+    }, {
+      "id" : "_nlJ68GYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Server"
+    }, {
+      "id" : "_nlJ68WYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Login"
+    }, {
+      "id" : "_nlJ68mYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Database"
+    }, {
+      "id" : "_nlJ682YmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_AdditionalParams"
+    }, {
+      "id" : "_nlJ69GYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Password"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_MW-HwGYlEe6FrpLJ8dCutA",
+    "parameterList" : [ {
+      "id" : "_nlJ66GYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Port"
+    }, {
+      "id" : "_nlJ66WYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Server"
+    }, {
+      "id" : "_nlJ66mYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Login"
+    }, {
+      "id" : "_nlJ662YmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Database"
+    }, {
+      "id" : "_nlJ67GYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_AdditionalParams"
+    }, {
+      "id" : "_nlJ67WYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Password"
+    } ]
+  }, {
+    "contextName" : "Developement",
+    "repoId" : "_MW-HwGYlEe6FrpLJ8dCutA",
+    "parameterList" : [ {
+      "id" : "_nlJ64WYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Port"
+    }, {
+      "id" : "_nlJ64mYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Server"
+    }, {
+      "id" : "_nlJ642YmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Login"
+    }, {
+      "id" : "_nlJ65GYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Database"
+    }, {
+      "id" : "_nlJ65WYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_AdditionalParams"
+    }, {
+      "id" : "_nlJ65mYmEe6FrpLJ8dCutA",
+      "name" : "LA_Crime_DB_Connection1_Password"
+    } ]
+  } ]
+}

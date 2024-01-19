@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MXN_YGYlEe6FrpLJ8dCutA">
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Port" prompt="LA_Crime_DB_Connection1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_MXOmcGYlEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Server" prompt="LA_Crime_DB_Connection1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_MXOmcWYlEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Login" prompt="LA_Crime_DB_Connection1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_MXOmcmYlEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Database" prompt="LA_Crime_DB_Connection1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="world" xmi:id="_MXOmc2YlEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_AdditionalParams" prompt="LA_Crime_DB_Connection1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_MXOmdGYlEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Password" prompt="LA_Crime_DB_Connection1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:jj4xw13VtW99kxGTwj28i5dTEQ9wwUBAkEni6RyVdqw=" xmi:id="_MXOmdWYlEe6FrpLJ8dCutA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Developement" xmi:id="_nlJ64GYmEe6FrpLJ8dCutA">
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Port" prompt="LA_Crime_DB_Connection1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_nlJ64WYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Server" prompt="LA_Crime_DB_Connection1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_nlJ64mYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Login" prompt="LA_Crime_DB_Connection1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_nlJ642YmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Database" prompt="LA_Crime_DB_Connection1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="world" xmi:id="_nlJ65GYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_AdditionalParams" prompt="LA_Crime_DB_Connection1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nlJ65WYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Password" prompt="LA_Crime_DB_Connection1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:eImLXLP4C14nfc0YDdrSJOPUUyWY9m3kmWaQixHnkAI=" xmi:id="_nlJ65mYmEe6FrpLJ8dCutA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_nlJ652YmEe6FrpLJ8dCutA">
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Port" prompt="LA_Crime_DB_Connection1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_nlJ66GYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Server" prompt="LA_Crime_DB_Connection1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_nlJ66WYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Login" prompt="LA_Crime_DB_Connection1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_nlJ66mYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Database" prompt="LA_Crime_DB_Connection1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="world" xmi:id="_nlJ662YmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_AdditionalParams" prompt="LA_Crime_DB_Connection1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nlJ67GYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Password" prompt="LA_Crime_DB_Connection1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:IlrlzUp7/oxVkur/VaYVmaOXCZI10VyklPOLMRZXV30=" xmi:id="_nlJ67WYmEe6FrpLJ8dCutA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_nlJ67mYmEe6FrpLJ8dCutA">
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Port" prompt="LA_Crime_DB_Connection1_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_nlJ672YmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Server" prompt="LA_Crime_DB_Connection1_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_nlJ68GYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Login" prompt="LA_Crime_DB_Connection1_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_nlJ68WYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Database" prompt="LA_Crime_DB_Connection1_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="world" xmi:id="_nlJ68mYmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_AdditionalParams" prompt="LA_Crime_DB_Connection1_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nlJ682YmEe6FrpLJ8dCutA"/>
+    <contextParameter comment="" name="LA_Crime_DB_Connection1_Password" prompt="LA_Crime_DB_Connection1_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:xGreqCNTDvaicga1a5henHAJPlzNqOHjGcP72zBmGkI=" xmi:id="_nlJ69GYmEe6FrpLJ8dCutA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4cf471bc-3d09-45c6-99c0-bcf1d441a4b3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hap2K3zz/3en+T4GCD0m0zWSCS76lYmDkSAVI5c+9wPQOs7DFlUg568P6W5x/Q1fxZwZ65Gis36V&#13;
+9FrdXn0cVA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1de0fa78-39fb-43dd-87c7-a51c3810b3b8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LHsZvmxG+a6SBzuyB5WrB/LFaC+hH9b92Y5dPWy/4cWond6eZKj5jFfHJN8AWWFOlUIL55JEczIr&#13;
++el0SVR7SA==</DigestValue></Reference></SignedInfo><SignatureValue>B+Pr4izxPSZdfjG/WErFD9iN04aa6FKJAh99BnYBKjzYtJY09M9KrePQv3HGXqu0H62a2CcNdzF+&#13;
+pkMYLUSHXb31Jtj2mJG2fDEmtR96gbAmr+eemOfEs6DOyt9wU71cZsvqpZiEqxPfPR6Rfxh0hkBD&#13;
+oNaMFR4P1cCXihzn03kT9JDifyh6nEMayFfzOFR5c13VDucETQVmecCdl9c/c9FYVHC7EjLmjemU&#13;
+jUsvPn4U0B+Mz9J4MluPeMHGUea1jj0zwMB4kY5b38to3eNe3R+lOFh5eIhYI/I69vFg3KWoK5GQ&#13;
+br9/P+BUGhg8SUm7Z5Rgpzlu8rCgbUIJhAXb6Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1de0fa78-39fb-43dd-87c7-a51c3810b3b8" Target="#_4cf471bc-3d09-45c6-99c0-bcf1d441a4b3"><Timestamp>2023-10-08 22:04:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
