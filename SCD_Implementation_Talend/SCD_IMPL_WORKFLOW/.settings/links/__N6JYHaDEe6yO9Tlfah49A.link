@@ -1,0 +1,45 @@
+{
+  "itemId" : "__N6JYHaDEe6yO9Tlfah49A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_sru6AHYHEe6yO9Tlfah49A",
+    "parameterList" : [ {
+      "id" : "_ssKX0XYHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_Port"
+    }, {
+      "id" : "_ssKX0nYHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_Login"
+    }, {
+      "id" : "_ssKX03YHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_Password"
+    }, {
+      "id" : "_ssKX1HYHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_Server"
+    }, {
+      "id" : "_ssKX1XYHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_AdditionalParams"
+    }, {
+      "id" : "_ssKX1nYHEe6yO9Tlfah49A",
+      "name" : "MySQL_DB2_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ZH1DIHUjEe6VJaqt2Dspjg",
+    "parameterList" : [ {
+      "id" : "_ZITkRXUjEe6VJaqt2Dspjg",
+      "name" : "Product_Cost_History1_FieldSeparator"
+    }, {
+      "id" : "_ZITkRHUjEe6VJaqt2Dspjg",
+      "name" : "Product_Cost_History1_File"
+    }, {
+      "id" : "_ZITkQnUjEe6VJaqt2Dspjg",
+      "name" : "Product_Cost_History1_Header"
+    }, {
+      "id" : "_ZITkQXUjEe6VJaqt2Dspjg",
+      "name" : "Product_Cost_History1_RowSeparator"
+    }, {
+      "id" : "_ZITkQ3UjEe6VJaqt2Dspjg",
+      "name" : "Product_Cost_History1_Encoding"
+    } ]
+  } ]
+}

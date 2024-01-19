@@ -1,0 +1,23 @@
+{
+  "itemId" : "_NyXKQHUkEe6VJaqt2Dspjg",
+  "contextList" : [ {
+    "contextName" : "Stage",
+    "repoId" : "_-7Nv0HUjEe6VJaqt2Dspjg",
+    "parameterList" : [ {
+      "id" : "_-7qbwXUjEe6VJaqt2Dspjg",
+      "name" : "Product_Price_History_RowSeparator"
+    }, {
+      "id" : "_-7qbwnUjEe6VJaqt2Dspjg",
+      "name" : "Product_Price_History_Header"
+    }, {
+      "id" : "_-7qbw3UjEe6VJaqt2Dspjg",
+      "name" : "Product_Price_History_Encoding"
+    }, {
+      "id" : "_-7qbxHUjEe6VJaqt2Dspjg",
+      "name" : "Product_Price_History_File"
+    }, {
+      "id" : "_-7qbxXUjEe6VJaqt2Dspjg",
+      "name" : "Product_Price_History_FieldSeparator"
+    } ]
+  } ]
+}
