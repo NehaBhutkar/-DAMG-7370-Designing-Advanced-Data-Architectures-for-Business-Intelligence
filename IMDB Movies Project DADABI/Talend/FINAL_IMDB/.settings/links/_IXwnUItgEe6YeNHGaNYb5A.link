@@ -1,0 +1,144 @@
+{
+  "itemId" : "_IXwnUItgEe6YeNHGaNYb5A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_yTISgItfEe6YeNHGaNYb5A",
+    "parameterList" : [ {
+      "id" : "_yTk-cYtfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_FilePath"
+    }, {
+      "id" : "_yTk-cotfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_Encoding"
+    }, {
+      "id" : "_yTk-c4tfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbRosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbRIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbQYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbQ4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbQosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbRYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_yTISgItfEe6YeNHGaNYb5A",
+    "parameterList" : [ {
+      "id" : "_yTk-eYtfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_FilePath"
+    }, {
+      "id" : "_yTk-eotfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_Encoding"
+    }, {
+      "id" : "_yTk-e4tfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbVIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbUosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbT4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbUYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbUIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbU4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_yTISgItfEe6YeNHGaNYb5A",
+    "parameterList" : [ {
+      "id" : "_yTk-dYtfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_FilePath"
+    }, {
+      "id" : "_yTk-dotfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_Encoding"
+    }, {
+      "id" : "_yTk-d4tfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbTYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbS4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbSIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbSosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbSYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbTIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_yTISgItfEe6YeNHGaNYb5A",
+    "parameterList" : [ {
+      "id" : "_yTk-cYtfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_FilePath"
+    }, {
+      "id" : "_yTk-cotfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_Encoding"
+    }, {
+      "id" : "_yTk-c4tfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbRosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbRIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbQYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbQ4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbQosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbRYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  } ]
+}

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_SZ_GkIsmEe6pG-Dt4nAOOA" name="mysql_source_Server" prompt="mysql_source_Server?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GkYsmEe6pG-Dt4nAOOA" name="mysql_source_Login" prompt="mysql_source_Login?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_GkosmEe6pG-Dt4nAOOA" name="mysql_source_Database" prompt="mysql_source_Database?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_SZ_Gk4smEe6pG-Dt4nAOOA" name="mysql_source_AdditionalParams" prompt="mysql_source_AdditionalParams?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GlIsmEe6pG-Dt4nAOOA" name="mysql_source_Password" prompt="mysql_source_Password?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:aBLx6RVUzMqaXwomfJQqRgLVh/BElSpRF68gliTSyBFJ+n3ScQ=="/>
+    <contextParameter comment="" internalId="_SZ_GlYsmEe6pG-Dt4nAOOA" name="mysql_source_Port" prompt="mysql_source_Port?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_GlosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_Gl4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GmIsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GmYsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_SZ_GmosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_Gm4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:QSL/YeJmmMAXSAc3lYxs663cA+HjHX05+omEyMZ7BYkFwdzowg=="/>
+    <contextParameter comment="" internalId="_Guy6kJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Port" prompt="mysql_datamart_stg2_Port?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_Guy6kZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Server" prompt="mysql_datamart_stg2_Server?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_Guy6kpGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Login" prompt="mysql_datamart_stg2_Login?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_Guy6k5GkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Database" prompt="mysql_datamart_stg2_Database?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_Guy6lJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Password" prompt="mysql_datamart_stg2_Password?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:FJV3MScR2iMk7c8q/ov7FnOQkuVbufYsqrcG2snTSMMqpYY/Qw=="/>
+    <contextParameter comment="" internalId="_Guy6lZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_AdditionalParams" prompt="mysql_datamart_stg2_AdditionalParams?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkV-8JGkEe65Y-nsN5pKEg" name="mysql_source1_Server" prompt="mysql_source1_Server?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_PkV-8ZGkEe65Y-nsN5pKEg" name="mysql_source1_Port" prompt="mysql_source1_Port?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_PkV-8pGkEe65Y-nsN5pKEg" name="mysql_source1_AdditionalParams" prompt="mysql_source1_AdditionalParams?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkV-85GkEe65Y-nsN5pKEg" name="mysql_source1_Login" prompt="mysql_source1_Login?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_PkV-9JGkEe65Y-nsN5pKEg" name="mysql_source1_Database" prompt="mysql_source1_Database?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_PkV-9ZGkEe65Y-nsN5pKEg" name="mysql_source1_Password" prompt="mysql_source1_Password?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:cNiN7ZTCtVxFU3kNj+n8qIQpgRXBwSFPYrJ6NXmdpH4XVAkKgQ=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="qa">
+    <contextParameter comment="" internalId="_SZ_GnIsmEe6pG-Dt4nAOOA" name="mysql_source_Server" prompt="mysql_source_Server?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GnYsmEe6pG-Dt4nAOOA" name="mysql_source_Login" prompt="mysql_source_Login?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_GnosmEe6pG-Dt4nAOOA" name="mysql_source_Database" prompt="mysql_source_Database?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_SZ_Gn4smEe6pG-Dt4nAOOA" name="mysql_source_AdditionalParams" prompt="mysql_source_AdditionalParams?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GoIsmEe6pG-Dt4nAOOA" name="mysql_source_Password" prompt="mysql_source_Password?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:Rh8pY7t7x11R70Bkz2DXmcnYw9kGBdwvQLLaawPL43g0j//JxQ=="/>
+    <contextParameter comment="" internalId="_SZ_GoYsmEe6pG-Dt4nAOOA" name="mysql_source_Port" prompt="mysql_source_Port?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_GoosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_Go4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GpIsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GpYsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_SZ_GposmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_Gp4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:KafW7uWu2So3GMkymmm8CljOVGsux1A1wKGQMBQEVtF0thdjyw=="/>
+    <contextParameter comment="" internalId="_Guy6lpGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Port" prompt="mysql_datamart_stg2_Port?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_Guy6l5GkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Server" prompt="mysql_datamart_stg2_Server?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_Guy6mJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Login" prompt="mysql_datamart_stg2_Login?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_Guy6mZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Database" prompt="mysql_datamart_stg2_Database?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_GuzhoJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Password" prompt="mysql_datamart_stg2_Password?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:WrBuSStDJ2OrXbGCEONxHj+9rj9rUIKK5FFS65V5PYcblkvwnw=="/>
+    <contextParameter comment="" internalId="_GuzhoZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_AdditionalParams" prompt="mysql_datamart_stg2_AdditionalParams?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkV-9pGkEe65Y-nsN5pKEg" name="mysql_source1_Server" prompt="mysql_source1_Server?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_PkV-95GkEe65Y-nsN5pKEg" name="mysql_source1_Port" prompt="mysql_source1_Port?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_PkV--JGkEe65Y-nsN5pKEg" name="mysql_source1_AdditionalParams" prompt="mysql_source1_AdditionalParams?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkV--ZGkEe65Y-nsN5pKEg" name="mysql_source1_Login" prompt="mysql_source1_Login?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_PkV--pGkEe65Y-nsN5pKEg" name="mysql_source1_Database" prompt="mysql_source1_Database?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_PkWmAJGkEe65Y-nsN5pKEg" name="mysql_source1_Password" prompt="mysql_source1_Password?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:XAh3HhlpNwRLEQt9ZbUXaXA5zR3OcDzRk1NiSpzbpp/Bruswvw=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter comment="" internalId="_SZ_GqIsmEe6pG-Dt4nAOOA" name="mysql_source_Server" prompt="mysql_source_Server?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GqYsmEe6pG-Dt4nAOOA" name="mysql_source_Login" prompt="mysql_source_Login?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_GqosmEe6pG-Dt4nAOOA" name="mysql_source_Database" prompt="mysql_source_Database?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_SZ_Gq4smEe6pG-Dt4nAOOA" name="mysql_source_AdditionalParams" prompt="mysql_source_AdditionalParams?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GrIsmEe6pG-Dt4nAOOA" name="mysql_source_Password" prompt="mysql_source_Password?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:fkoUcGFkZQKwZX5TSTl3c5FNDnej+gE9gH6gOdatvBPnEK2txA=="/>
+    <contextParameter comment="" internalId="_SZ_GrYsmEe6pG-Dt4nAOOA" name="mysql_source_Port" prompt="mysql_source_Port?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_GrosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_Gr4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GsIsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GsYsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_SZ_GsosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_Gs4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:5titA2ucYqBnoYUnEk4yqfh9BKpdSeJTunm04y2TI9oGSx+m5g=="/>
+    <contextParameter comment="" internalId="_GuzhopGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Port" prompt="mysql_datamart_stg2_Port?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_Guzho5GkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Server" prompt="mysql_datamart_stg2_Server?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_GuzhpJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Login" prompt="mysql_datamart_stg2_Login?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_GuzhpZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Database" prompt="mysql_datamart_stg2_Database?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_GuzhppGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Password" prompt="mysql_datamart_stg2_Password?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:edL+HDEuRemDRP9ClToouXTMTH4IcRZJnQOfLyo9SDYMCZX3kA=="/>
+    <contextParameter comment="" internalId="_Guzhp5GkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_AdditionalParams" prompt="mysql_datamart_stg2_AdditionalParams?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkWmAZGkEe65Y-nsN5pKEg" name="mysql_source1_Server" prompt="mysql_source1_Server?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_PkWmApGkEe65Y-nsN5pKEg" name="mysql_source1_Port" prompt="mysql_source1_Port?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_PkWmA5GkEe65Y-nsN5pKEg" name="mysql_source1_AdditionalParams" prompt="mysql_source1_AdditionalParams?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkWmBJGkEe65Y-nsN5pKEg" name="mysql_source1_Login" prompt="mysql_source1_Login?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_PkWmBZGkEe65Y-nsN5pKEg" name="mysql_source1_Database" prompt="mysql_source1_Database?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_PkWmBpGkEe65Y-nsN5pKEg" name="mysql_source1_Password" prompt="mysql_source1_Password?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:0wlXKfdiwQ24M4198buxcqUc/lbNbLt73oQSg+/JFynUggWNiA=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter comment="" internalId="_SZ_GtIsmEe6pG-Dt4nAOOA" name="mysql_source_Server" prompt="mysql_source_Server?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GtYsmEe6pG-Dt4nAOOA" name="mysql_source_Login" prompt="mysql_source_Login?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_GtosmEe6pG-Dt4nAOOA" name="mysql_source_Database" prompt="mysql_source_Database?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_SZ_Gt4smEe6pG-Dt4nAOOA" name="mysql_source_AdditionalParams" prompt="mysql_source_AdditionalParams?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GuIsmEe6pG-Dt4nAOOA" name="mysql_source_Password" prompt="mysql_source_Password?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:MutUrahOrUSRBXpYA2ZR2iBdj2uIUhcH/vT00v/L4t2OAAhiBw=="/>
+    <contextParameter comment="" internalId="_SZ_GuYsmEe6pG-Dt4nAOOA" name="mysql_source_Port" prompt="mysql_source_Port?" promptNeeded="false" repositoryContextId="_O_7j4IsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_GuosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_SZ_Gu4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_SZ_GvIsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_SZ_GvYsmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_SZ_GvosmEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_SZ_Gv4smEe6pG-Dt4nAOOA" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="_nK0akIsNEe6pG-Dt4nAOOA" type="id_Password" value="enc:system.encryption.key.v1:mNAeXamfCSQaYAEh8seVsDyNZxOLFKCelsudYNmwkkEcNcHFxQ=="/>
+    <contextParameter comment="" internalId="_GuzhqJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Port" prompt="mysql_datamart_stg2_Port?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_GuzhqZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Server" prompt="mysql_datamart_stg2_Server?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_GuzhqpGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Login" prompt="mysql_datamart_stg2_Login?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_Guzhq5GkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Database" prompt="mysql_datamart_stg2_Database?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_movies_datamart"/>
+    <contextParameter comment="" internalId="_GuzhrJGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_Password" prompt="mysql_datamart_stg2_Password?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:+gDuzccXVkibMKklOvykvyqHFYlv1YDXz40OzNFBeEM4SnNW1A=="/>
+    <contextParameter comment="" internalId="_GuzhrZGkEe65Y-nsN5pKEg" name="mysql_datamart_stg2_AdditionalParams" prompt="mysql_datamart_stg2_AdditionalParams?" promptNeeded="false" repositoryContextId="_Dz0-QJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkWmB5GkEe65Y-nsN5pKEg" name="mysql_source1_Server" prompt="mysql_source1_Server?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_PkWmCJGkEe65Y-nsN5pKEg" name="mysql_source1_Port" prompt="mysql_source1_Port?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_PkWmCZGkEe65Y-nsN5pKEg" name="mysql_source1_AdditionalParams" prompt="mysql_source1_AdditionalParams?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="serverTimezone=UTC"/>
+    <contextParameter comment="" internalId="_PkWmCpGkEe65Y-nsN5pKEg" name="mysql_source1_Login" prompt="mysql_source1_Login?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_PkWmC5GkEe65Y-nsN5pKEg" name="mysql_source1_Database" prompt="mysql_source1_Database?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_String" value="imdb_src_movie"/>
+    <contextParameter comment="" internalId="_PkWmDJGkEe65Y-nsN5pKEg" name="mysql_source1_Password" prompt="mysql_source1_Password?" promptNeeded="false" repositoryContextId="_OHoJUJGkEe65Y-nsN5pKEg" type="id_Password" value="enc:system.encryption.key.v1:9XG7SvMaKcGYWmuuwL6KtPIn6nYAQLotY/yFusjxM8euTqb5bA=="/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xoA54XnYqojf9G6ZT9QmrOusynD7q15UCfz8cm+v"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/amey8/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WjCQdMRN3dv7j//MKsyoR632/L+olOB8WLq0SlSS"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_Wj5ocIsJEe6pG-Dt4nAOOA" name="SQLike"/>
+    <routinesParameter id="_Wk_0oIsJEe6pG-Dt4nAOOA" name="DataOperation"/>
+    <routinesParameter id="_WlLa0IsJEe6pG-Dt4nAOOA" name="Mathematical"/>
+    <routinesParameter id="_WlWZ8IsJEe6pG-Dt4nAOOA" name="Numeric"/>
+    <routinesParameter id="_WlgK8IsJEe6pG-Dt4nAOOA" name="Relational"/>
+    <routinesParameter id="_Wlp78IsJEe6pG-Dt4nAOOA" name="StringHandling"/>
+    <routinesParameter id="_Wl07EIsJEe6pG-Dt4nAOOA" name="TalendDataGenerator"/>
+    <routinesParameter id="_Wl_6MIsJEe6pG-Dt4nAOOA" name="TalendDate"/>
+    <routinesParameter id="_WmK5UIsJEe6pG-Dt4nAOOA" name="TalendString"/>
+    <routinesParameter id="_WmUDQIsJEe6pG-Dt4nAOOA" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_x7_TkIsMEe6pG-Dt4nAOOA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_source1_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_source1_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_source1_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_source1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PNP5g9xa9aJjJIevQQQstgLeipqPABPvz9uQwhRdcY/0CgTUoimhDkn4gyap7CS0LQS4o8mR5NeQjw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;imdb_title_crew&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `imdb_title_crew`.`tconst`,  &#10;  `imdb_title_crew`.`writers`&#10;FROM `imdb_title_crew`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_source1_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tconst"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="writers"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFilterRow_6"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS">
+      <elementValue elementRef="INPUT_COLUMN" value="writers"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="!="/>
+      <elementValue elementRef="RVALUE" value="&quot;\\N&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" show="false" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFilterRow_6">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FILTER" name="FILTER">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNormalize_1"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="writers"/>
+    <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="CHECK" name="DEDUPLICATE" value="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="ESCAPE_CHAR" show="false" value="ESCAPE_MODE_DOUBLED"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;\&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DISCARD_TRAILING_EMPTY_STR" value="false"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tNormalize_1">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_u9XSYIskEe6pG-Dt4nAOOA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_imdb_title_crew_writers" name="load_stage">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="Process_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="DI_Create_DT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="pid" name="var_Process_id" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="var_DI_Created_DT" type="id_Date"/>
+      </varTables>
+      <outputTables name="load_stage" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.tconst" name="tconst" type="id_String"/>
+        <mapperTableEntries expression="row1.writers" name="writers" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.var_Process_id " name="Process_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.var_DI_Created_DT " name="DI_Create_DT" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="tconst" type="id_String"/>
+        <mapperTableEntries name="writers" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_T_FlgIsNEe6pG-Dt4nAOOA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_datamart_stg2_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_datamart_stg2_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_datamart_stg2_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_datamart_stg2_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ygHanNZ0GhnfH6kjf35bS0Slw3xxNAP5TgmS0FuGJuz0OjR3afGzrR9uI8TOWMDuyyS3VYC19/JYZH27LaH9yQ=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;stg_imdb_title_crew_writers&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_datamart_stg2_AdditionalParams"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tconst"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="writers"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Process_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_Create_DT"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_imdb_title_crew_writers" name="tDBOutput_1">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="Process_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="DI_Create_DT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="stg_imdb_title_crew_writers" name="REJECT">
+      <column comment="" key="false" length="10" name="tconst" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="Process_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="DI_Create_DT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_T_FlgIsNEe6pG-Dt4nAOOA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_datamart_stg2_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_datamart_stg2_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_datamart_stg2_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_datamart_stg2_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UgpHP/t8mZk0vJOF6hbYbziVM+6qFBE+QHcDZ75FIEWZWTak8vGkHrGGKtW9gkDvjyR7r3/xZxMifUtXThs0/Q=="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_T_FlgIsNEe6pG-Dt4nAOOA - stg_imdb_title_crew_writers"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;stg_imdb_title_crew_writers&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;truncate table `stg_imdb_title_crew_writers`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_datamart_stg2_AdditionalParams"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="sitcw_id"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_imdb_title_crew_writers" name="tDBRow_1">
+      <column comment="" key="true" length="10" name="sitcw_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="tconst" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="Process_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="DI_Create_DT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="stg_imdb_title_crew_writers" name="REJECT">
+      <column comment="" key="true" length="10" name="sitcw_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="tconst" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="writers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="Process_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="DI_Create_DT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tFilterRow_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FILTER" label="row3" lineStyle="0" metaname="FILTER" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_6" target="tNormalize_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tNormalize_1" offsetLabelX="0" offsetLabelY="0" source="tNormalize_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="load_stage" lineStyle="0" metaname="load_stage" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="load_stage"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_24f3884b-51ed-457c-b06a-5764668294ab"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ERV95B05fqPX/EcHpzWBPu6ozPPmFmCyVNCA7r6j4s7QMWyxBIUAcBHLTUooa4WFHJQrVXsIqlXM&#13;
+1hObD59pWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7e01fbdf-ecd9-4248-8a1e-9a34844cf1ec"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jPryECuoOMgnzY7QLmtRRrDKvw5ph1O9djr7vsjsDH7GbBeLefZ7Ru8nSaTyszHvFTa4AkX1oEoK&#13;
+qIO1YIIAaQ==</DigestValue></Reference></SignedInfo><SignatureValue>BAsHQ6XuQppcY9stMwQs4r+P1Q8Ubd0eEQMOyUr4BBBC0WumnmVqUK6H79p3ULD3YacEKJ80bFQA&#13;
+E57TxnGm9ZlUnmfCRoMStrHh0WIyNSk+YhoZonsBRHeEMGKT8EF5FYiDcfGScpdeWt+2WhDf3LEf&#13;
+LIbdTvUVaVdqJkj4qjABvJATItCbCr8xPFUG7tLEpM7N4T8V3gvLBSMyxPPkIQCL9VMSNoHV93Dr&#13;
+zALBv23wcrDvDEesUpRcFjT5MH0mxZLjVES2VllcZAjumjHGKxxBob6sukZ3ncYsW7d0FNc7vt87&#13;
+s9JuN5QfAT/TZeSeEZOvFavInoFxiLPz2/B4wg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7e01fbdf-ecd9-4248-8a1e-9a34844cf1ec" Target="#_24f3884b-51ed-457c-b06a-5764668294ab"><Timestamp>2023-12-03 06:21:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

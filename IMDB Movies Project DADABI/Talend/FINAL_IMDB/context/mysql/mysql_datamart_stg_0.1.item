@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_nLYbQIsNEe6pG-Dt4nAOOA">
+    <contextParameter comment="" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_nLYbQYsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_nLYbQosNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb_movies_datamart" xmi:id="_nLYbQ4sNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nLYbRIsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:NPgolJpWm5GXpPg01Mp+kgvdBpywlgDDd6Px4PhoZaylp7KlgA==" xmi:id="_nLYbRYsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_nLYbRosNEe6pG-Dt4nAOOA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_nLYbR4sNEe6pG-Dt4nAOOA">
+    <contextParameter comment="" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_nLYbSIsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_nLYbSYsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb_movies_datamart" xmi:id="_nLYbSosNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nLYbS4sNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:NTVBoRl5flFggWT4ogUGetNQRo6auuohIMSV+W32P8MAAS+m6Q==" xmi:id="_nLYbTIsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_nLYbTYsNEe6pG-Dt4nAOOA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="qa" xmi:id="_nLYbTosNEe6pG-Dt4nAOOA">
+    <contextParameter comment="" name="mysql_datamart_stg_Server" prompt="mysql_datamart_stg_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_nLYbT4sNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Login" prompt="mysql_datamart_stg_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_nLYbUIsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Database" prompt="mysql_datamart_stg_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb_movies_datamart" xmi:id="_nLYbUYsNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_AdditionalParams" prompt="mysql_datamart_stg_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_nLYbUosNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Password" prompt="mysql_datamart_stg_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Dug33K0ecDTrgtCU4bN8zuZYCb4CiZCprVRIzkR+jFwiUibEEA==" xmi:id="_nLYbU4sNEe6pG-Dt4nAOOA"/>
+    <contextParameter comment="" name="mysql_datamart_stg_Port" prompt="mysql_datamart_stg_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_nLYbVIsNEe6pG-Dt4nAOOA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8ce2bbec-7baa-4f80-bbe7-4c9a32fb84e5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zGGyAgzYC6LOrpz5/KNsolNzddeOc8hpX1X6so2Hzr0CyaSCbEqMuZK8Gfn7ZiAD13JGa+mgVxST&#13;
+iij2f4LTTA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ccfe39f4-f1fc-42a9-86a7-00c36ead08e2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HL5F8tvyDspqSNLF1+juz90d9bpGpg1p5rPI+G1ZZ0zoMyvzykf7BoyJVBaj0Xkaux3Dc315WcBU&#13;
+OGR7O5luFg==</DigestValue></Reference></SignedInfo><SignatureValue>P87XkwFoAjMVj1PjA1zIoKxfbVz5mrG/XqTqH23G3MnKwSYuHUTDltjyxZi/DwVlmTFjc4cGVxFY&#13;
+QjgzJaEstUEJ79hhD2N3Lc+lPqEdD45/C/TyIxCICttCTFlBMqADNvHVgUsIJDIFizHqE0wM9bKj&#13;
+rqCuRylPuXRmdUHxWaDFOTLtkASfDj/Y5DmnLr1Kk2C6iEtLUppypZr7HwcgzIguckwC4kuPkWfU&#13;
+AWKPs9A5P9jG89n5lh1JQZGKpVW5DbFMGXYsYKp/JAZVpYMI5vlJBswtOdmhrKrNL5qvbopZwP6/&#13;
+O+WF/Gd22ehGnlXp6NTeA217JCK9oUEwjl1DBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ccfe39f4-f1fc-42a9-86a7-00c36ead08e2" Target="#_8ce2bbec-7baa-4f80-bbe7-4c9a32fb84e5"><Timestamp>2023-11-29 02:30:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

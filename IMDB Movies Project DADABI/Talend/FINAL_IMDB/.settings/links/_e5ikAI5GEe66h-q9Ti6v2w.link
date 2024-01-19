@@ -1,0 +1,70 @@
+{
+  "itemId" : "_e5ikAI5GEe66h-q9Ti6v2w",
+  "contextList" : [ {
+    "contextName" : "qa",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbT4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbUIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbUYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbUosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbU4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    }, {
+      "id" : "_nLYbVIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbSIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbSYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbSosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbS4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbTIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    }, {
+      "id" : "_nLYbTYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbQYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbQosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbQ4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbRIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbRYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    }, {
+      "id" : "_nLYbRosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    } ]
+  } ]
+}

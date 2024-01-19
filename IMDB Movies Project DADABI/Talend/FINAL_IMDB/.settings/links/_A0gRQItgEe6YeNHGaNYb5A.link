@@ -1,0 +1,17 @@
+{
+  "itemId" : "_A0gRQItgEe6YeNHGaNYb5A",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_yTISgItfEe6YeNHGaNYb5A",
+    "parameterList" : [ {
+      "id" : "_yTk-cYtfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_FilePath"
+    }, {
+      "id" : "_yTk-cotfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_Encoding"
+    }, {
+      "id" : "_yTk-c4tfEe6YeNHGaNYb5A",
+      "name" : "src_newdata_name_basics1_XPathQuery"
+    } ]
+  } ]
+}

@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="474" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Engine_35924_b86b5d3e4fa9224cbac0582e1aa07326_\Engine_35924_07c868a55709f44688ad9372a567a64c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Black Panther (2018).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avatar.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Titanic.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - The Avengers.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tcont" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: C:\Users\nehas\Downloads\final_Project_tsv_\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Engine_35924_b86b5d3e4fa9224cbac0582e1aa07326_\Engine_35924_8695967ca704b840a769f4abd86c9620~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="tconst" selected="True" />
+            <SelectField field="title" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Rank" selected="True" />
+            <SelectField field="Gross" selected="True" />
+            <SelectField field="%YD" selected="True" />
+            <SelectField field="%LW" selected="True" />
+            <SelectField field="Theaters" selected="True" />
+            <SelectField field="Per Theater" selected="True" />
+            <SelectField field="Total Gross" selected="True" />
+            <SelectField field="Days" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="702" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="tconst" selected="True" />
+            <Field field="title" selected="True" />
+            <Field field="Date" selected="True" />
+            <Field field="Rank" selected="True" />
+            <Field field="Gross" selected="True" />
+            <Field field="%YD" selected="True" />
+            <Field field="%LW" selected="True" />
+            <Field field="Theaters" selected="True" />
+            <Field field="Per Theater" selected="True" />
+            <Field field="Total Gross" selected="True" />
+            <Field field="Days" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="9" source="File: (Multiple Sources)" type="String" />
+            <Field name="title" size="42" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Date" size="12" source="File: (Multiple Sources)" type="String" />
+            <Field name="Rank" size="2" source="File: (Multiple Sources)" type="String" />
+            <Field name="Gross" size="12" source="File: (Multiple Sources)" type="String" />
+            <Field name="%YD" size="4" source="File: (Multiple Sources)" type="String" />
+            <Field name="%LW" size="4" source="File: (Multiple Sources)" type="String" />
+            <Field name="Theaters" size="5" source="File: (Multiple Sources)" type="String" />
+            <Field name="Per Theater" size="7" source="File: (Multiple Sources)" type="String" />
+            <Field name="Total Gross" size="12" source="File: (Multiple Sources)" type="String" />
+            <Field name="Days" size="5" source="File: (Multiple Sources)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="810" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"tconst","title","Date","Rank","Gross","%YD","%LW","Theaters","Per Theater","Total Gross","Days"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="906" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="822" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Engine_35924_b86b5d3e4fa9224cbac0582e1aa07326_\Engine_35924_e08d4644db74564194cb8dc90d54c4b6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Engine_35924_b86b5d3e4fa9224cbac0582e1aa07326_\Engine_35924_5a4a2922dee5c843a08577094b51c5eb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Engine_35924_b86b5d3e4fa9224cbac0582e1aa07326_\Engine_35924_e02bd37613380d4fa9f49f63bfeaad39~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#9">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>all_tsv_files_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="dc7d7a31-1c8f-47a4-a115-bc560849a10f" />
+      <Telemetry>
+        <PreviousWorkflowId value="b04ea056-8a95-4315-a0f3-758ff5d4015b" />
+        <OriginWorkflowId value="b04ea056-8a95-4315-a0f3-758ff5d4015b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

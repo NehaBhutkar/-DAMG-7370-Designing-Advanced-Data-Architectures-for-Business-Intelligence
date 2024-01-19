@@ -1,0 +1,180 @@
+{
+  "itemId" : "_q4crcIskEe6pG-Dt4nAOOA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_O_7j4IsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_PAfkkYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Server"
+    }, {
+      "id" : "_PAfkkosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Login"
+    }, {
+      "id" : "_PAfkk4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Database"
+    }, {
+      "id" : "_PAfklIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_AdditionalParams"
+    }, {
+      "id" : "_PAfklYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Password"
+    }, {
+      "id" : "_PAfklosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbRosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbRIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbQYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbQ4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbQosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbRYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_O_7j4IsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_PAfkn4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Server"
+    }, {
+      "id" : "_PAfkoIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Login"
+    }, {
+      "id" : "_PAfkoYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Database"
+    }, {
+      "id" : "_PAfkoosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_AdditionalParams"
+    }, {
+      "id" : "_PAfko4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Password"
+    }, {
+      "id" : "_PAfkpIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Port"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbVIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbUosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbT4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbUYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbUIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbU4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_O_7j4IsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_PAfkmIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Server"
+    }, {
+      "id" : "_PAfkmYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Login"
+    }, {
+      "id" : "_PAfkmosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Database"
+    }, {
+      "id" : "_PAfkm4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_AdditionalParams"
+    }, {
+      "id" : "_PAfknIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Password"
+    }, {
+      "id" : "_PAfknYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Port"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbTYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbS4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbSIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbSosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbSYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbTIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_O_7j4IsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_PAfkkYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Server"
+    }, {
+      "id" : "_PAfkkosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Login"
+    }, {
+      "id" : "_PAfkk4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Database"
+    }, {
+      "id" : "_PAfklIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_AdditionalParams"
+    }, {
+      "id" : "_PAfklYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Password"
+    }, {
+      "id" : "_PAfklosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_source_Port"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_nK0akIsNEe6pG-Dt4nAOOA",
+    "parameterList" : [ {
+      "id" : "_nLYbRosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Port"
+    }, {
+      "id" : "_nLYbRIsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_AdditionalParams"
+    }, {
+      "id" : "_nLYbQYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Server"
+    }, {
+      "id" : "_nLYbQ4sNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Database"
+    }, {
+      "id" : "_nLYbQosNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Login"
+    }, {
+      "id" : "_nLYbRYsNEe6pG-Dt4nAOOA",
+      "name" : "mysql_datamart_stg_Password"
+    } ]
+  } ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_8Kb_UI5TEe6U2qjJT8-2gA">
+    <contextParameter comment="" name="src_regions1_FilePath" prompt="src_regions1_FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="/Users/asawari/Downloads/allRegions (1).json" xmi:id="_8Kb_UY5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_Encoding" prompt="src_regions1_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_8Kb_Uo5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_XPathQuery" prompt="src_regions1_XPathQuery?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="$[*]" xmi:id="_8Kb_U45TEe6U2qjJT8-2gA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_8Kb_VI5TEe6U2qjJT8-2gA">
+    <contextParameter comment="" name="src_regions1_FilePath" prompt="src_regions1_FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="/Users/asawari/Downloads/allRegions (1).json" xmi:id="_8Kb_VY5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_Encoding" prompt="src_regions1_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_8Kb_Vo5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_XPathQuery" prompt="src_regions1_XPathQuery?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="$[*]" xmi:id="_8Kb_V45TEe6U2qjJT8-2gA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="qa" xmi:id="_8Kb_WI5TEe6U2qjJT8-2gA">
+    <contextParameter comment="" name="src_regions1_FilePath" prompt="src_regions1_FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="/Users/asawari/Downloads/allRegions.json" xmi:id="_8Kb_WY5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_Encoding" prompt="src_regions1_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_8Kb_Wo5TEe6U2qjJT8-2gA"/>
+    <contextParameter comment="" name="src_regions1_XPathQuery" prompt="src_regions1_XPathQuery?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="$[*]" xmi:id="_8Kb_W45TEe6U2qjJT8-2gA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a4c0c54e-3f42-456c-83e6-cc9088121084"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1El4KVrQ8Tb+b7KZgGz86yscQ+Uc5jNfSI6GjKnv4F8v2G4o4lCxRKegZUf5/42m+/UWyLRQVbAl&#13;
+CZXio3CX2Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9da2e436-d036-4d31-94ee-23391e8fe4fa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L0QSbthEirNXbkCoCEHyb5TzRqgeiKnkrM94pXiOCbDYcDhMVlg5gggi9OJNgPNrNuiNveQYlxFz&#13;
+5rNGgJdKzQ==</DigestValue></Reference></SignedInfo><SignatureValue>Fbdg4gRRzoBEY3xtIC6FcToglYAa7eUx5I4tpV7MJ05+evfQgS4Eg3r+OzpY/TzbzXD+32JhtUcU&#13;
+4JmY6MBP0oPge2D/xkv40nhMCvQE4gDKSbt6qKTMf/K++UyCGG/h14aAJKkkEx2bRgcn/VzeqDRF&#13;
+ap28OFSE3TFv9nV15RgtQe5FaOCzMfQ+IItP4p+LtobM22rjG/+NAtIXqcRiVlhD+EoRXp0BwkRl&#13;
+0uz9WeDvYtrFPglBYrMz32Kx1UO6TFoO8M4Spod7IUc3LdXI9Il1w5KOztaSWtkzZD+blQT6OJh9&#13;
+0pJ8Uu1Hd/zACL/2YU/utxK3FVyHwykREhIEFg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9da2e436-d036-4d31-94ee-23391e8fe4fa" Target="#_a4c0c54e-3f42-456c-83e6-cc9088121084"><Timestamp>2023-12-03 06:19:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
